@@ -1,1 +1,3 @@
-# NimapMachineTest
+This project is a Spring Boot application that allows you to manage Category and Product data. It uses Spring Data JPA and Hibernate to connect to a database (like MySQL). The application provides simple APIs to create, read, update, and delete categories and products. Each Category can have multiple Products, making it a one-to-many relationship. The project also supports pagination, so when there are many categories or products, you can view them in pages instead of all at once.
+The application has different endpoints for handling categories and products. You can create new categories or products, update existing ones, delete them, and fetch information by their ID. When you retrieve a product, you also get the details of its related category.
+You can test the API using Postman, which allows you to send requests to check the functionality of creating, updating, and deleting categories and products. This project is easy to run and test.
